@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.lotguard.app"
+4    android:versionCode="1"
+5    android:versionName="0.1-demo" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="34"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:2:2-73
+11-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:2:19-71
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+12-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:3:2-90
+12-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:3:19-88
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:4:2-73
+13-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:4:19-71
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:5:2-62
+14-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:5:19-60
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+17        android:name="dev.lotguard.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="dev.lotguard.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+21    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+22-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+23
+24    <application
+24-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:7:2-10:16
+25        android:allowBackup="false"
+25-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:7:45-72
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.9.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/08ab6b09e123053fcc605170d6e5cc0a/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:label="LotGuard Demo"
+29-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:7:15-44
+30        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
+30-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:7:73-136
+31        <activity
+31-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:3-210
+32            android:name="dev.lotguard.app.Home"
+32-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:13-33
+33            android:exported="true" >
+33-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:34-57
+34            <intent-filter>
+34-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:58-199
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:73-124
+35-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:81-122
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:124-183
+37-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:8:134-181
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:9:3-110
+42            android:name="dev.lotguard.app.Monitor"
+42-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:9:12-35
+43            android:exported="false"
+43-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:9:84-108
+44            android:foregroundServiceType="mediaProjection" />
+44-->/Users/balaashwathb/Documents/Codex/2026-11-19/new-chat/LotGuard/app/src/main/AndroidManifest.xml:9:36-83
+45        <service
+45-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:9:9-15:19
+46            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+46-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:10:13-91
+47            android:directBootAware="true"
+47-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
+48            android:exported="false" >
+48-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:11:13-37
+49            <meta-data
+49-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:12:13-14:85
+50                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+50-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:13:17-114
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/5cb033dfca2b7e5024e685b30991b0f1/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:14:17-82
+52            <meta-data
+52-->[com.google.mlkit:vision-common:17.3.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4c2d903c4b4250ca053f5f83ab56c68f/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+53                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+53-->[com.google.mlkit:vision-common:17.3.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4c2d903c4b4250ca053f5f83ab56c68f/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+54                android:value="com.google.firebase.components.ComponentRegistrar" />
+54-->[com.google.mlkit:vision-common:17.3.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4c2d903c4b4250ca053f5f83ab56c68f/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+55            <meta-data
+55-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
+56                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+56-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
+58        </service>
+59
+60        <provider
+60-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
+61            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+61-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
+62            android:authorities="dev.lotguard.app.mlkitinitprovider"
+62-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
+63            android:exported="false"
+63-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
+64            android:initOrder="99" />
+64-->[com.google.mlkit:common:18.11.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/dea7f3a92dc9b9d6a1b061fa23c23f7b/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:18.5.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/6b3777476aae5d9547661ae6398bd275/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:18.5.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/6b3777476aae5d9547661ae6398bd275/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:18.5.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/6b3777476aae5d9547661ae6398bd275/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:18.5.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/6b3777476aae5d9547661ae6398bd275/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:18.4.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/69d7e0d458e2ddb343dd0e28e8ffe68c/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:18.4.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/69d7e0d458e2ddb343dd0e28e8ffe68c/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:18.4.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/69d7e0d458e2ddb343dd0e28e8ffe68c/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+77            android:authorities="dev.lotguard.app.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.2.0] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/b7a52a504a3a30fee628be60a7a40331/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/c168e40a4568b9a4e92c2a647c52219f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/c168e40a4568b9a4e92c2a647c52219f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/c168e40a4568b9a4e92c2a647c52219f/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+85        </provider>
+86
+87        <service
+87-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+88            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+88-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+89            android:exported="false" >
+89-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+90            <meta-data
+90-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+91                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+91-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+92                android:value="cct" />
+92-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/4b469b113f7035dbd8c4305357d4d5b0/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+93        </service>
+94        <service
+94-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+95-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+96            android:exported="false"
+96-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+97            android:permission="android.permission.BIND_JOB_SERVICE" >
+97-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+98        </service>
+99
+100        <receiver
+100-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+101            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+101-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+102            android:exported="false" />
+102-->[com.google.android.datatransport:transport-runtime:2.2.6] /private/tmp/mt5-android-tools/gradle-home/caches/8.9/transforms/daa86c04f564f71bd172d7303f2a0e6d/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+103    </application>
+104
+105</manifest>
